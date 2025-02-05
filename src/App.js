@@ -10,7 +10,11 @@ export default function App() {
         <Weather defaultCity="Tokyo" />
         <footer>
           This project was coded by Tara Walker and is {""}
-          <a href="https://github.com/TaraWalk/react-project" target="_blank">
+          <a
+            href="https://github.com/TaraWalk/react-project"
+            rel="noreferrer"
+            target="_blank"
+          >
             open-sourced on github
           </a>
         </footer>
