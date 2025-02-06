@@ -18,7 +18,6 @@ export default function WeatherInfo(props) {
             <div className="float-left">
               <WeatherIcon code={props.data.icon} />
             </div>
-
             <div className="float-left">
               <span className="temperature">
                 {Math.round(props.data.temperature)}
