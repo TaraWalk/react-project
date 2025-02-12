@@ -2,9 +2,13 @@
   font-family: arial, sans-serif;
   padding: 16px;
   border-radius: 4px;
-  color: rgb(135, 135, 135);
-
-  border: 1px solid blueviolet;
+  color: white;
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+  border: 3px solid blueviolet;
 }
 .Weather form {
   margin-bottom: 20px;
